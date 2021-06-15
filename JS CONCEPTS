@@ -1,0 +1,21 @@
+EVENT QUEUE ==>TO DO LIST (BUNCH of events(functions like calc(),say hello() in squence form))
+EVENT LOOP==>is a thread to check continous this TODO LIST,any event is missing in queue
+
+ASYNCHRONOUS 
+
+setTimeout(checkForUpdates, 60000);
+The first argument to setTimeout() is a function and the second is a time interval measured in milliseconds. In the preceding code, a hypothetical checkForUpdates() function will be called 60,000 milliseconds (1 minute) after the setTimeout() call.
+
+EVENTS:-
+Client-side JavaScript programs are almost universally eVENT-DRIVEN.wait for the user to do something and then respond to the user’s actions. The web browser generates an event when the user presses a key on the keyboard, moves the mouse, clicks a mouse button, or touches a touchscreen device. eVENT-DRIVEN JavaScript programs register callback functions for specified types of events in specified contexts, and the web browser invokes those functions whenever the specified events occur. These callback functions are called EVENT HANDLERS OR EVENT LISTENERS, and they are registered with addEventListener():
+
+EVENTLISTNER:
+assigning functions to the onload, onerror, and ontimeout properties. By convention, event listener properties like these always have names that begin with on. addEventListener() is the more flexible technique because it allows for multiple event handlers. But in cases where you are sure that no other code will need to register a listener for the same object and event type, it can be simpler to simply set the appropriate property to your callback.
+
+succinct==briefly and clearly expressed.
+vague==not clearly expresse
+OMIT==fail or neglect/exclude
+
+NESTED CALLBACK IS DANGEROUS NOT PROMISE CHAIN
+IF CALLBACK FAIL SSTEM GOES TO INTIATOR TO SEARCH EXCEPTION HANDLING WHERE AS PROMISE IS SEQENCILAY VISIBLE TO EXACT WHICH PRMISE CHAIN EXCEPTION OCCURED
+PG-566
